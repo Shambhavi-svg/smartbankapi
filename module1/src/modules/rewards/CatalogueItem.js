@@ -63,7 +63,7 @@ const CatalogueItem = ({ catalogue }) => {
             <div className="card-item">
 
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-4">
                         <img src={getItemImage(item)} />
                         <br /><br />
                         <div className="item-worth">

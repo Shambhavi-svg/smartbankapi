@@ -43,6 +43,7 @@ function CartItems() {
                  */
                 //rk
                   console.log(response);
+                  //make a axios call to send email
                   refreshLoginDetails();
                   afterPurchase();
                   history.push("/order-confirm")
